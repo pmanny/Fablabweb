@@ -860,8 +860,9 @@
 
 		<!-- ABOUT
 		================================================== -->
-		<section class="pt-8 pt-md-11 bg-gradient-light">
+		<section class="pt-8 pt-md-11 bg-gradient-light display-none">
 			<div class="container">
+				<?php /*
 				<div class="row align-items-center justify-content-between mb-8 mb-md-11">
 					<div class="col-12 col-md-6 order-md-2" data-aos="fade-left">
 						
@@ -992,19 +993,20 @@
 						</div>
 
 					</div>
-				</div> <!-- / .row -->
+				</div>
+				*/?>
 				<div class="row align-items-center">
 					<div class="col-12 col-md-7 col-lg-6" data-aos="fade-right">
 						
 						<!-- Heading -->
 						<h2>
-							We have lots of experience <br>
-							<span class="text-primary">building Bootstrap themes</span>.
+							We help our members <br>
+							<span class="text-primary">grow together in community</span>.
 						</h2>
 
 						<!-- Text -->
 						<p class="font-size-lg text-muted mb-6">
-							We've built well over a dozen Bootstrap themes and sold tens of thousands of copies. 
+							. 
 						</p>
 
 						<!-- List -->
@@ -1029,12 +1031,12 @@
 								
 								<!-- Heading -->
 								<h4 class="mb-1">
-									Bootstrap users since the beginning
+									Power member collaboration
 								</h4>
 
 								<!-- Text -->
 								<p class="text-muted mb-6">
-									We've been developing with Bootstrap since it was publicly released in 2011.
+									Help members to collaborate by building a strong and innovative community
 								</p>
 
 							</div>
@@ -1061,12 +1063,12 @@
 								
 								<!-- Heading -->
 								<h4 class="mb-1">
-									Deep understanding of Bootstrap
+									Strong personal development opportunities
 								</h4>
 
 								<!-- Text -->
 								<p class="text-muted mb-6 mb-md-0">
-									We've watched Bootstrap grow up over the years and understand it better than almost anyone.
+									Fablab support every one to develop individually
 								</p>
 
 							</div>
@@ -1090,7 +1092,7 @@
 							<div class="img-skewed img-skewed-left">
 
 								<!-- Image -->
-								<img src="assets/img/screenshots/desktop/dashkit.jpg" class="screenshot img-fluid img-skewed-item" alt="...">
+								<img src="assets/img/screenshots/desktop/design.jpg" class="screenshot img-fluid img-skewed-item" alt="...">
 								
 							</div>
 							
@@ -1268,43 +1270,46 @@
 						
 						<!-- Heading -->
 						<h2>
-							Stay focused on your business. <br>
-							<span class="text-primary">Let us handle the design</span>.
+							Skills development. <br>
+							<span class="text-primary">Up skilling our community with industry 4.0 technology</span>.
 						</h2>
 
 						<!-- Text -->
 						<p class="font-size-lg text-gray-700 mb-6">
-							You have a business to run. Stop worring about cross-browser bugs, designing new pages, keeping your components up to date. Let us do that for you.
+							Fablab equips its members with Internet of things, additive manufacturing, Computer aided design and manufacturing as well as rapid prototyping.
 						</p>
 
 						<!-- Stats -->
 						<div class="d-flex">
 							<div class="pr-5">
-								<h3 class="mb-0">
-									<span data-toggle="countup" data-from="0" data-to="100" data-aos data-aos-id="countup:in"></span>%
-								</h3>
 								<p class="text-gray-700 mb-0">
-									Satisfaction
+									Industry
 								</p>
+								<h3 class="mb-0">
+									<span data-toggle="countup" data-from="-10" data-to="4.0" data-aos data-aos-id="countup:in"></span>
+								</h3>
+								
 							</div>
 							<div class="border-left border-gray-300"></div>
 							<div class="px-5">
+								<p class="text-gray-700 mb-0">
+									Accessibility
+								</p>
 								<h3 class="mb-0">
 									<span data-toggle="countup" data-from="0" data-to="24" data-aos data-aos-id="countup:in"></span>/
 									<span data-toggle="countup" data-from="0" data-to="7" data-aos data-aos-id="countup:in"></span>
 								</h3>
-								<p class="text-gray-700 mb-0">
-									Support
-								</p>
+								
 							</div>
 							<div class="border-left border-gray-300"></div>
 							<div class="pl-5">
-								<h3 class="mb-0">
-									<span data-toggle="countup" data-from="0" data-to="100" data-aos data-aos-id="countup:in"></span>k+
-								</h3>
 								<p class="text-gray-700 mb-0">
-									Sales
+									Works
 								</p>
+								<h3 class="mb-0">
+									<span data-toggle="countup" data-from="0" data-to="500" data-aos data-aos-id="countup:in"></span> +
+								</h3>
+								
 							</div>
 						</div>
 
@@ -1322,7 +1327,7 @@
 						
 						<!-- Heading -->
 						<h1>
-							Fair, simple pricing for all.
+							Beautifully crafted and carefully designed products.
 						</h1>
 						
 						<!-- Text -->
@@ -1331,6 +1336,7 @@
 						</p>
 
 						<!-- Form -->
+						<?php /*
 						<form class="d-flex align-items-center justify-content-center mb-7 mb-md-9">
 									
 							<!-- Label -->
@@ -1350,6 +1356,7 @@
 							</span>
 
 						</form>
+						*/ ?>
 
 					</div>
 				</div> <!-- / .row -->
@@ -1456,7 +1463,7 @@
 
 							<!-- Button -->
 							<a href="#!" class="card-btn btn btn-block btn-lg btn-primary rounded-bottom">
-								Get it now
+								View all products
 							</a>
 
 						</div>
@@ -1490,7 +1497,7 @@
 
 							<!-- Button -->
 							<a href="#!" class="card-btn btn btn-block btn-lg btn-light bg-gray-300 text-gray-700 rounded-bottom">
-								Contact us
+								Events
 							</a>
 
 						</div>
@@ -1668,10 +1675,11 @@
 		<footer class="py-8 py-md-11 bg-gray-200">
 			<div class="container">
 				<div class="row">
-					<div class="col-12 col-md-4 col-lg-3">
+					<div class="col-12 col-md-4 col-lg-4">
 				
 						<!-- Brand -->
-						<img src="assets/img/brand.svg" alt="..." class="footer-brand img-fluid mb-2">
+						<!-- <img src="assets/img/brand.svg" alt="..." class="footer-brand img-fluid mb-2"> -->
+						<p class="footer-brand mb-2 text-primary-desat">Fablab Rwanda</p>
 
 						<!-- Text -->
 						<p class="text-gray-700 mb-2">
@@ -1698,7 +1706,7 @@
 						</ul>
 
 					</div>
-					<div class="col-6 col-md-4 col-lg-2">
+					<div class="col-6 col-md-4 col-lg-4">
 				
 						<!-- Heading -->
 						<h6 class="font-weight-bold text-uppercase text-gray-700">
@@ -1725,7 +1733,7 @@
 						</ul>
 
 					</div>
-					<div class="col-6 col-md-4 col-lg-2">
+					<div class="col-6 col-md-4 col-lg-4">
 				
 						<!-- Heading -->
 						<h6 class="font-weight-bold text-uppercase text-gray-700">
@@ -1747,80 +1755,6 @@
 							<li class="mb-3">
 								<a href="#!" class="text-reset">
 									3D Printing
-								</a>
-							</li>
-						</ul>
-
-					</div>
-					<div class="col-6 col-md-4 offset-md-4 col-lg-2 offset-lg-0">
-				
-						<!-- Heading -->
-						<h6 class="font-weight-bold text-uppercase text-gray-700">
-							Connect
-						</h6>
-
-						<!-- List -->
-						<ul class="list-unstyled text-muted mb-0">
-							<li class="mb-3">
-								<a href="#!" class="text-reset">
-									Page Builder
-								</a>
-							</li>
-							<li class="mb-3">
-								<a href="#!" class="text-reset">
-									UI Kit
-								</a>
-							</li>
-							<li class="mb-3">
-								<a href="#!" class="text-reset">
-									Styleguide
-								</a>
-							</li>
-							<li class="mb-3">
-								<a href="#!" class="text-reset">
-									Documentation
-								</a>
-							</li>
-							<li class="mb-3">
-								<a href="#!" class="text-reset">
-									Changelog
-								</a>
-							</li>
-							<li class="mb-3">
-								<a href="#!" class="text-reset">
-									Documentation
-								</a>
-							</li>
-							<li>
-								<a href="#!" class="text-reset">
-									Changelog
-								</a>
-							</li>
-						</ul>
-
-					</div>
-					<div class="col-6 col-md-4 col-lg-2">
-				
-						<!-- Heading -->
-						<h6 class="font-weight-bold text-uppercase text-gray-700">
-							Legal
-						</h6>
-
-						<!-- List -->
-						<ul class="list-unstyled text-muted mb-0">
-							<li class="mb-3">
-								<a href="#!" class="text-reset">
-									Documentation
-								</a>
-							</li>
-							<li class="mb-3">
-								<a href="#!" class="text-reset">
-									Changelog
-								</a>
-							</li>
-							<li>
-								<a href="#!" class="text-reset">
-									Pagebuilder
 								</a>
 							</li>
 						</ul>
@@ -1854,6 +1788,4 @@
 		<script src="assets/js/theme.min.js"></script>
 			
 	</body>
-
-<!-- Mirrored from landkit.goodthemes.co/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 04 Aug 2019 21:38:14 GMT -->
 </html>
