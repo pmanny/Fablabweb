@@ -446,93 +446,9 @@
 							</a>
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link" id="navbarLandings" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+							<a class="nav-link" id="navbarLandings" href="/" aria-expanded="false">
 								Projects
 							</a>
-							<div class="dropdown-menu dropdown-menu-xl p-0" aria-labelledby="navbarLandings">
-								<div class="row no-gutters">
-									<div class="col-12 col-lg-6">
-										<div class="dropdown-img-left" style="background-image: url(assets/img/photos/photo-3.jpg);">
-
-											<!-- Heading -->
-											<h4 class="font-weight-bold text-white mb-0">
-												Want to see an overview?
-											</h4>
-
-											<!-- Text -->
-											<p class="font-size-sm text-white">
-												See all the pages at once.
-											</p>
-
-											<!-- Button -->
-											<a href="overview.html" class="btn btn-sm btn-white shadow-dark fonFt-size-sm">
-												View all pages
-											</a>
-									
-										</div>
-									</div>
-									<div class="col-12 col-lg-6">
-										<div class="dropdown-body">
-											<div class="row no-gutters">
-												<div class="col-6">
-
-													<!-- Heading -->
-													<h6 class="dropdown-header">
-														Services
-													</h6>
-
-													<!-- List -->
-													<a class="dropdown-item" href="coworking.html">
-														Coworking
-													</a>
-													<a class="dropdown-item" href="rental.html">
-														Rental
-													</a>
-													<a class="dropdown-item mb-5" href="job.html">
-														Job Listing
-													</a>
-
-													<!-- Heading -->
-													<h6 class="dropdown-header">
-														Apps
-													</h6>
-
-													<!-- List -->
-													<a class="dropdown-item" href="desktop-app.html">
-														Desktop
-													</a>
-													<a class="dropdown-item" href="mobile-app.html">
-														Mobile
-													</a>
-
-												</div>
-												<div class="col-6">
-											
-													<!-- Heading -->
-													<h6 class="dropdown-header">
-														Web 
-													</h6>
-
-													<!-- List -->
-													<a class="dropdown-item" href="index-2.html">
-														Basic
-													</a>
-													<a class="dropdown-item" href="enterprise.html">
-														Enterprise
-													</a>
-													<a class="dropdown-item" href="service.html">
-														Service
-													</a>
-													<a class="dropdown-item" href="cloud.html">
-														Cloud Hosting
-													</a>
-
-												</div>
-											</div> <!-- / .row -->
-										</div>
-									</div>
-								</div> <!-- / .row -->
-							</div>
 						</li>						
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" id="navbarDocumentation" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
@@ -540,7 +456,7 @@
 							</a>
 							<div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarDocumentation">
 								<div class="list-group list-group-flush">
-									<a class="list-group-item" href="docs/index.html">
+									<a class="list-group-item" href="#">
 								
 										<!-- Icon -->
 										<div class="icon icon-sm text-primary">
@@ -574,7 +490,7 @@
 										</div>
 
 									</a>
-									<a class="list-group-item" href="docs/alerts.html">
+									<a class="list-group-item" href="#">
 								
 										<!-- Icon -->
 										<div class="icon icon-sm text-primary">
@@ -607,7 +523,7 @@
 										</div>
 
 									</a>
-									<a class="list-group-item" href="docs/changelog.html">
+									<a class="list-group-item" href="#">
 								
 										<!-- Icon -->
 										<div class="icon icon-sm text-primary">
