@@ -568,7 +568,7 @@
 
 					<!-- Button -->
 					<a class="navbar-btn btn btn-sm btn-primary lift ml-auto" href="/" target="_blank">
-						Join now
+						Join us now
 					</a>
 
 				</div>
