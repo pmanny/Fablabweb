@@ -178,7 +178,7 @@
 
 									<!-- Text -->
 									<p class="mb-0 font-size-sm text-center text-muted">
-										Already have an account? <a href="signin-illustration.html">Log in</a>.
+										Already have an account? <a href="#">Log in</a>.
 									</p>
 
 								</div>
@@ -254,7 +254,7 @@
 
 							<!-- Text -->
 							<p class="mb-0 font-size-sm text-center text-muted">
-								Already have an account? <a href="signin-illustration.html">Log in</a>.
+								Already have an account? <a href="#">Log in</a>.
 							</p>
 
 						</div>
@@ -329,7 +329,7 @@
 
 									<!-- Text -->
 									<p class="mb-0 font-size-sm text-center text-muted">
-										Don't have an account yet? <a href="signin-illustration.html">Sign up</a>.
+										Don't have an account yet? <a href="#">Sign up</a>.
 									</p>
 
 								</div>
@@ -405,7 +405,7 @@
 
 							<!-- Text -->
 							<p class="mb-0 font-size-sm text-center text-muted">
-								Don't have an account yet? <a href="signin-illustration.html">Sign up</a>.
+								Don't have an account yet? <a href="">Sign up</a>.
 							</p>
 
 						</div>
@@ -421,7 +421,7 @@
 			<div class="container">
 
 				<!-- Brand -->
-				<a class="navbar-brand" href="index-2.html">
+				<a class="navbar-brand" href="/">
 					<img src="assets/img/fablab-logo-wide.png" class="navbar-brand-img" alt="...">
 				</a>
 
@@ -605,7 +605,7 @@
 							<a href="" class="btn btn-primary shadow lift mr-1">
 								Our works <i class="fe fe-arrow-right d-none d-md-inline ml-3"></i>
 							</a>
-							<a href="docs/index.html" class="btn btn-primary-soft lift">
+							<a href="#" class="btn btn-primary-soft lift">
 								About us
 							</a>
 						</div>
